@@ -1,0 +1,115 @@
+<!-- 
+
+                     Shopping List! html file
+-->
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/Store.css">
+<link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+<header id="header">
+<hr>
+  <img class="bounceInDown animated" src="logo.png" width="60px" height="60px"> 
+      <img class="bounceInDown animated" src="word/s.png" width="60px" height="60px"> 
+	  <img class="bounceInDown animated" src="word/h.png" width="60px" height="60px"> 
+	  <img class="bounceInDown animated" src="word/o.png" width="60px" height="60px"> 
+	  <img class="bounceInDown animated" src="word/p.png" width="60px" height="60px"> 
+	  <img class="bounceInDown animated" src="word/p.png" width="60px" height="60px"> 
+	  <img class="bounceInDown animated" src="word/i.png" width="60px" height="60px"> 
+	  <img class="bounceInDown animated" src="word/n.png" width="60px" height="60px"> 
+	  <img class="bounceInDown animated" src="word/g.png" width="60px" height="60px"> 
+	  <img class="bounceInDown animated" src="word/Blank.png" width="60px" height="60px">
+	  <img class="bounceInDown animated" src="word/l.png" width="60px" height="60px"> 
+	  <img class="bounceInDown animated" src="word/i.png" width="60px" height="60px"> 
+	  <img class="bounceInDown animated" src="word/s.png" width="60px" height="60px"> 
+	  <img class="bounceInDown animated" src="word/t.png" width="60px" height="60px"> 
+	  <hr>
+</header>
+<nav class="bounceInDown animated" id="navbar">
+<input type="button"  id="Menu" value="Menu">
+<input type="button" id="NewPrd" value="Add Product">
+<input type="button" id="edt" value="Edit">
+<input type="button" id="dlt" value="Delete">
+<input type="button" id="LoSa" value="Load/Save">
+</nav>
+<div id="winMsg" >
+<h1>New Product</h1>
+<h1>Product's Name<input type="text"  id="newItemN" placeholder="products Name"  required></h1>
+<h1>Quantity<input type="number"  id="quan" placeholder="1"></h1>
+<input type="button" id="addbtn" value="Add to List">
+<input type="button" id="cnlbtn" value="cancel">
+</div>
+<div  id="mainM">
+ <h1> Welcome to Shopping list <br>
+    you can manage here your shopping list, and have it anywhere.</h1>
+	<h2>why us?<img  src="logo.png" width="80px" height="90px"> <br><br>
+	</h2><h2>you can create a list and edit it as u like <br>
+	and have it anywhere you go through your moblie phone<br>	
+   by clicking save you save the list, then load<br>
+	 aswell you can create template list for a <br>
+	 recipey, or other depended things just pull <br>
+	 it any time u need</h2>
+</div>
+<div id="LoSaWin">
+<h1> Edit Item <br><br>
+select action</h1><br>
+<input type="button" id="Lod" value="Load">
+<input type="button" id="Sav" value="Save">
+</div>
+<div  id="edtWin">
+<h1> Edit Item </h1>
+<h1> Find Item by Index</h1>
+<h1>products index: <input type="number"  id="index" placeholder="0"></h1><br>
+
+<input type="button" id="find" value="Find Item">
+</div>
+<div id="subedt">
+<h1> Edit Item </h1>
+<h1>Product's Name<input type="text"  id="Rename"></h1>
+<h1>Quantity<input type="number"  id="quant"></h1><br>
+<input type="button" id="change" value="Change">
+</div>
+<div id="dltWin">
+<h1> Delete Item</h1>
+<h1>products index: <input type="number"  id="pos" placeholder="0"></h1>
+<br><br><br>
+<input type="button" id="confdlt" value="Delete">
+</div>
+<div class="animated bounceInDown" id= "MainList">
+<h1>items list<div id="datediv">  <input type="button" id="datebtn" value="add date"></div></h1>
+<h2>index&nbsp; |&nbsp;  name&nbsp; | &nbsp;quant&nbsp; |&nbsp; Added date&nbsp; |</h2>
+<div id="chsDt"><h1> List's Date</h1>
+<h1>New List's Name:<input type="Date"  id="listsdate" value=""></h1>
+<br>
+<input type="button" id="setDt" value="Set Date">
+<input type="button" id="datecnl" value="Cancel">  </div>
+  <div id= "theList">
+  </div>
+  <hr>sort (view) only:<br>
+  <input type="button" id="srtAd" value="Quntity Descending">
+    <input type="button" id="AscQu" value="Quantity Ascending"> 
+      <input type="button" id="srtdt" value="Added Date"> <br><br>
+	  <input type="button" id="clrlst" value="Clear List"> 
+  </div>
+<div id= "socail">
+<h2><a href="http://www.google.com"> <img src="logos/SOCAIL.jpg" width="200px" height="75px"></a>
+visit us at <a href="https://tranquil-depths-79222.herokuapp.com/">
+<img class="animated bounce infinite" src="logos/memg.png" height="75px; width="200px">
+ </a></h2>
+</div>
+<br>
+<footer id="fbottom" style="position:relative" >
+<hr>
+<img src="logo.png" width="25px" height="25px">www.myShoppingList.com<br>
+all right reserved  <img src="logos/cr.png" width="15px" height="15px"> AlaaZme Ltd.
+<a href="http://www.google.com">Terms of Use</a>
+<span class="dday" > 17/11/2016</span>
+<br>
+<span class="coninfo"> Contact info: <a href ="mailto:alaazme1@live.com " > AlaaZme@live.com </a><span>
+</footer>
+<script src="js/Store.js">
+</script>
+</body>
+</html>
