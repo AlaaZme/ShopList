@@ -165,7 +165,7 @@ $("#Lod").click(function () {
    var retrievedData = localStorage.getItem("SavedList");//the list
    var newList = JSON.parse(retrievedData);
    retrievedData = localStorage.getItem("listDate");//the lists date
-  if( retrievedData != ""){
+  if( retrievedData != undefined){
    retrievedData=retrievedData.replace(/[@.,\/#!$%\^&\*" ;:{}=\_`~()]/g,"");
    if(retrievedData!="")//this is for date oonly!!!!
    document.getElementById("listsdate").value = retrievedData;
