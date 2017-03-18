@@ -28,6 +28,24 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <script>
+  function statusChangeCallback(response) {
+    console.log('statusChangeCallback');
+    console.log(response);
+	 if (response.status === 'connected') {
+      // Logged into your app and Facebook.
+      testAPI();
+	} else {
+	  document.getElementById('status').innerHTML = 'Please log ' +
+        'into this app.';
+    }
+  }
+    function checkLoginState() {
+    FB.getLoginStatus(function(response) {
+      statusChangeCallback(response);
+    });
+  }
+  
+	
   window.fbAsyncInit = function() {
     FB.init({
       appId      : 'your-app-id',
@@ -37,6 +55,11 @@
     FB.AppEvents.logPageView();
   };
 
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+
+  };
   (function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
      if (d.getElementById(id)) {return;}
