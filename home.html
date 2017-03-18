@@ -18,6 +18,24 @@
 
 </head>
 <body>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : 'your-app-id',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
 <header id="header">
 <hr>
   <img class="bounceInDown animated" src="logo.png" width="60px" height="60px"> 
@@ -111,14 +129,25 @@ visit us at <a href="https://tranquil-depths-79222.herokuapp.com/">
 <br>
 <footer id="fbottom" style="position:relative" >
 <hr>
+
 <img src="logo.png" width="25px" height="25px">www.myShoppingList.com<br>
 all right reserved  <img src="logos/cr.png" width="15px" height="15px"> AlaaZme Ltd.
 <a href="http://www.google.com">Terms of Use</a>
 <span class="dday" > 17/11/2016</span>
 <br>
 <span class="coninfo"> Contact info: <a href ="mailto:alaazme1@live.com " > AlaaZme@live.com </a><span>
+<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
+
 </footer>
 <script src="js/Store.js">
+
+
 </script>
+
 </body>
 </html>
