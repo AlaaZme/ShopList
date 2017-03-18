@@ -16,7 +16,8 @@ header,li,input[type=text]{
 transition:box-shadow 1s;
 }
 #fblogin{
-	float:left;
+	width:100px;
+	height:200px;
 	
 	
 }
