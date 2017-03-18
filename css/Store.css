@@ -20,6 +20,7 @@ h2{
 	
 	font-size:32px;
 margin-right:35px;
+color:white;
 	text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px white;
 }
 #header{
@@ -149,7 +150,7 @@ margin-bottom:100px;
 
 }
 #fb{border:2px solid blue;margin-left:55%;margin-top:20px;}
-h1{font-size:40px;text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px white; text-decoration: underline;}
+h1{font-size:40px;text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px white; text-decoration: underline;color:white;}
 #winMsg,#edtWin,#mainM,#dltWin,#subedt,#LoSaWin{
 	
 	background-image:url("hbg.jpg");
