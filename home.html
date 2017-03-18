@@ -18,6 +18,15 @@
 
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=426455711023897";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -37,13 +46,7 @@
    }(document, 'script', 'facebook-jssdk'));
 </script>
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=426455711023897";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
 <header id="header">
 <hr>
   <img class="bounceInDown animated" src="logo.png" width="60px" height="60px"> 
@@ -62,6 +65,7 @@
 	  <img class="bounceInDown animated" src="word/t.png" width="60px" height="60px"> 
 	  <hr>
 </header>
+
 <nav class="bounceInDown animated" id="navbar">
 <input type="button"  id="Menu" value="Menu">
 <input type="button" id="NewPrd" value="Add Product">
@@ -69,6 +73,7 @@
 <input type="button" id="dlt" value="Delete">
 <input type="button" id="LoSa" value="Load/Save">
 </nav>
+<div class="fb-login-button" data-max-rows="1" data-size="icon" data-show-faces="false" data-auto-logout-link="false"></div>
 <div id="winMsg" >
 <h1>New Product</h1>
 <h1>Product's Name<input type="text"  id="newItemN" placeholder="products Name"  required></h1>
