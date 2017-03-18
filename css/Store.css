@@ -21,7 +21,7 @@ h2{
 	font-size:32px;
 margin-right:35px;
 color:white;
-	text-shadow: 1px 1px 2px blue, 0 0 15px blue, 0 0 5px white;
+	text-shadow: 1px 1px 10px blue, 0 0 15px white, 0 0 5px yellow;
 }
 #header{
 border-radius:15px;
@@ -150,7 +150,8 @@ margin-bottom:100px;
 
 }
 #fb{border:2px solid blue;margin-left:55%;margin-top:20px;}
-h1{font-size:40px;text-shadow: 1px 1px 2px white, 0 0 15px blue, 0 0 3px white; text-decoration: underline;color:white;}
+h1{font-size:40px;text-shadow: 1px 1px 10px blue, 0 0 15px white, 0 0 5px yellow; text-decoration: underline;color:white;}
+h3{	text-shadow: 1px 1px 10px blue, 0 0 15px white, 0 0 5px yellow;}
 #winMsg,#edtWin,#mainM,#dltWin,#subedt,#LoSaWin{
 	
 	background-image:url("hbg.jpg");
@@ -233,18 +234,20 @@ font-size:25px;
 #srtAd,#AscQu,#srtdt{
 		 text-decoration: underline;
 	background-color:transparent;
-	color:blue;
+color:white;
 	font-weight:bold;
 	cursor: pointer;
+	text-shadow: 1px 1px 10px blue, 0 0 15px black, 0 0 5px yellow;
+	font-size:20px;
 }
 #clrlst{
-	background-color:white;
-	color:blue;
+	background-color:transparent;
+	color:white;
 	border: solid blue 1px;
-	font-size:18px;
+	font-size:22px;
 	cursor: pointer;
 	font-weight:bold;
-	
+	text-shadow: 1px 1px 10px blue, 0 0 15px white, 0 0 5px yellow;
 }
 #srtAd:hover,#AscQu:hover,#srtdt:hover,#clrlst:hover{color:red}
 #datebtn{	
