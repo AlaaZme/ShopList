@@ -15,7 +15,7 @@ header,li,input[type=text]{
  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
 transition:box-shadow 1s;
 }
-#fbcomt{float:left;}
+#fbcomt{float:left;position:relative;}
 h2{
 	
 	font-size:32px;
