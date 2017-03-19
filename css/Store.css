@@ -15,7 +15,7 @@ header,li,input[type=text]{
  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.5);
 transition:box-shadow 1s;
 }
-#fbcomt{margin-top:15%;padding-top:0px;height:350px}
+#fbcomt{margin-top:15%;padding-top:0px;}
 h2{
 	
 	font-size:32px;
@@ -149,7 +149,7 @@ margin-bottom:100px;
 
 
 }
-#fb{border:2px solid blue;margin-left:55%;margin-top:20px;height:350px;}
+#fb{border:2px solid blue;margin-left:55%;margin-top:20px;height:175px;width:725px;}
 h1{font-size:40px;text-shadow: 1px 1px 2px blue, 0 1px 5px #E0E0E0, 0 0 0px yellow; text-decoration: underline;color:#E0E0E0;}
 h3{	text-shadow: 1px 1px 2px blue, 0 0 7px #E0E0E0, 0 0 5px yellow;}
 #winMsg,#edtWin,#mainM,#dltWin,#subedt,#LoSaWin{
