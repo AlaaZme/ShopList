@@ -291,7 +291,7 @@ $("#setDt").click(function () {//shows lists date
             	alert("illegal date format " + '\n' +" insert mm/dd/yyyy");	
                 $("#datediv").css("background-Color","white");							
 		}
-		else if(insrtTm < currTm+ 1200){//check date ebntred not past
+		else if(insrtTm <= currTm){//check date ebntred not past
           alert("List's Date Cant be in the Past");
           if(insrtTm=="")
 	        $("#datediv").css("background-Color","white");								       	
