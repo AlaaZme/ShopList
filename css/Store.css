@@ -162,7 +162,7 @@ h3{	text-shadow: 1px 1px 2px blue, 0 0 7px #E0E0E0, 0 0 5px yellow;}
 	color: black;
 	width:750px;
 	height:375px;
-
+margin-top:1%;
 left:calc(40% - 550px);
    border-radius:50px;
 	visibility:hidden;
