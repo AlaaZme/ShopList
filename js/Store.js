@@ -335,7 +335,7 @@ myList.addItem(item8);
 myList.addItem(item9);
 
 document.getElementById('theList').innerHTML = myList.toString();
-$(document).ready(function(){
+/*$(document).ready(function(){
 animationHover('#srtAd','tada');
 animationHover('#AscQu','tada');
 animationHover('#clrlst','tada');
@@ -351,7 +351,7 @@ window.setTimeout(function(){
 },250);
 });
 }
-});
+});*/
 	//----------SHOW THE SPECIFIC WINDOW-------------------------//
   $("#cnlbtn").click(function(){	//new game btn
                $("#winMsg").css("visibility","hidden");
