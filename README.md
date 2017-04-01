@@ -4,3 +4,18 @@
 
 
 # [Live Application here](https://alaazmeshoplist.herokuapp.com/)
+
+
+## Disclaimer
+i claim all the rights@ reserved to AlaaZme Cop.
+
+## Development & Tools 
+HTML,CSS,JavaScript,jQurey     
+Notepad , google chrome     
+Heroku   
+## additional Plug-ins
+facebook Api       
+Google analytics server.
+
+## Deployment
+ heroku
